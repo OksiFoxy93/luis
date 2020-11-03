@@ -119,12 +119,21 @@ h2:before {
   transform: scale(1.2);
 }
 
-.services {
+.services, .portfolio {
   background-color: #f6f6f6;
 }
-.services p {
+.services p, .portfolio p {
   font-size: 22px;
   font-weight: 500;
+}
+
+.portfolio img {
+  transition: 1s;
+}
+.portfolio img:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: 1px 3px 21px 8px rgba(0, 0, 0, 0.31);
+  box-shadow: 1px 3px 21px 8px rgba(0, 0, 0, 0.31);
 }
 
 /*# sourceMappingURL=style.css.map */

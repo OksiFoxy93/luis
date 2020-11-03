@@ -131,10 +131,22 @@ h2 {
   }
 }
 
-.services {
+.services, .portfolio {
   background-color: #f6f6f6;
   p {
     font-size: 22px;
     font-weight: 500;
   }
 }
+
+.portfolio {
+  img {
+    transition: 1s;
+    &:hover{
+      transform: scale(1.1);
+      -webkit-box-shadow: 1px 3px 21px 8px rgba(0,0,0,0.31);
+      box-shadow: 1px 3px 21px 8px rgba(0,0,0,0.31);
+    }
+  }
+}
+
