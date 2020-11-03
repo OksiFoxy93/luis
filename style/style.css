@@ -1,0 +1,130 @@
+@import "bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import "media-queries.css";
+@import "owl.carousel.min.css";
+@import "owl.theme.default.min.css";
+body {
+  font-family: "Asap", sans-serif;
+  color: #4d4d4d;
+}
+
+.first_screen {
+  background-image: url("../images/first-sreen.png");
+  background-size: cover;
+  height: 100vh;
+}
+.first_screen header .navbar-light .navbar-nav .nav-link {
+  color: #4d4d4d;
+}
+.first_screen header nav {
+  font-size: 16px;
+  font-weight: 400;
+}
+.first_screen header nav ul li {
+  width: 70px;
+}
+.first_screen header nav ul li a:after {
+  content: "";
+  display: block;
+  margin-top: 5px;
+  width: 0;
+  height: 2px;
+  background-color: #878787;
+  transition: 0.3s;
+}
+.first_screen header nav ul li a:hover:after {
+  width: 100%;
+}
+.first_screen header nav ul li a:hover {
+  text-transform: uppercase;
+}
+.first_screen .lois-user {
+  position: relative;
+  bottom: 50px;
+  font-weight: 400;
+}
+.first_screen .lois-user h1 {
+  font-size: 88px;
+}
+.first_screen .lois-user p {
+  font-size: 21px;
+  color: #919191;
+  font-weight: 600;
+}
+.first_screen .lois-user .btn {
+  width: 160px;
+  border-radius: 0;
+  border: 1px solid #4d4d4d;
+  line-height: 35px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+.first_screen .lois-user .btn:active {
+  outline: none !important;
+}
+.first_screen .lois-user .btn:hover {
+  border-color: white;
+  background-color: white;
+  -webkit-box-shadow: 0 10px 13px -7px #4d4d4d, 1px 25px 46px -7px rgba(0, 0, 0, 0.43);
+  box-shadow: 0 10px 13px -7px #4d4d4d, 1px 25px 46px -7px rgba(0, 0, 0, 0.43);
+}
+
+h2 {
+  font-size: 46px;
+  color: #7a7a7a;
+  line-height: 50px;
+  font-weight: 700;
+}
+h2:before {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 60px;
+  background-color: #7a7a7a;
+  position: relative;
+  bottom: 10px;
+  left: 47%;
+}
+
+.about-me h2:before {
+  left: 3px;
+}
+.about-me p {
+  font-size: 16px;
+}
+.about-me .btn {
+  font-size: 16px;
+  width: 240px;
+  border: 1px solid #4d4d4d;
+  line-height: 35px;
+  border-radius: 0;
+  color: #4d4d4d;
+  font-weight: 500;
+}
+.about-me .btn:hover {
+  background-color: #7a7a7a;
+  border-color: #7a7a7a;
+  color: white;
+  transition: 0.5s;
+  -webkit-box-shadow: 0 10px 13px -7px #4d4d4d, 1px 25px 46px -7px rgba(0, 0, 0, 0.43);
+  box-shadow: 0 10px 13px -7px #4d4d4d, 1px 25px 46px -7px rgba(0, 0, 0, 0.43);
+}
+.about-me .about-img {
+  overflow: hidden;
+}
+.about-me .about-img img {
+  transition: 1s;
+}
+.about-me .about-img img:hover {
+  transform: scale(1.2);
+}
+
+.services {
+  background-color: #f6f6f6;
+}
+.services p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=style.css.map */
